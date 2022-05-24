@@ -1,11 +1,22 @@
 .App {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  margin: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-container{
+  display: flex;
+  text-align: center;
+ justify-content: center;
+ 
 }
+
+.btn-container button{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
